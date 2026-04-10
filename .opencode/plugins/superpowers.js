@@ -1,10 +1,3 @@
-/**
- * Superpowers plugin for OpenCode.ai
- *
- * Injects superpowers bootstrap context via system prompt transform.
- * Auto-registers skills directory via config hook (no symlinks needed).
- */
-
 import path from 'path';
 import fs from 'fs';
 import os from 'os';
